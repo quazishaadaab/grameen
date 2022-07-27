@@ -8,7 +8,7 @@ import { client } from "../apollo-client";
 import { Toaster } from "react-hot-toast";
 
 // ... (triple dots) mean there are other things in it
-function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
+function MyApp({ Component, pageProps: { session, ...pageProps } }: any) {
   return (
     // need to wrap apollo for graphql to work( apollo connect our graphql endpoint)
     <ApolloProvider client={client}>

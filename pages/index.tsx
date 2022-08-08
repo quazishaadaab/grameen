@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import PostBox from '../components/PostBox'
 import Feed from '../components/Feed'
-
+import Dashboard from './Dashboard/[dashboard]'
 const Home: NextPage = () => {
   return (
     // gives post box and all componnents under this div a margin( so it creates a border around the components instead of the components being
@@ -18,6 +18,8 @@ const Home: NextPage = () => {
       <PostBox/>
       <div className='flex'>
       <Feed/>
+
+      <Dashboard/>
       </div>
 {/* Post Box */}
 <div>

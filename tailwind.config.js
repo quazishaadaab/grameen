@@ -5,7 +5,17 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    
+      extend: {
+      flex:{
+        '3': '3'
+      }
+
+    },
+
+    fontFamily:{
+      sans:['Inter','sans-serif']
+    }
   },
   plugins: [],
 }

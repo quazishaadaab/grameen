@@ -23,7 +23,7 @@ const {data:session}= useSession();
 
 
    <div className="relative h-10 w-20 flex-shrink-0 cursor-pointer">
-   <Image src="https://links.papareact.com/fqy" objectFit='contain' layout='fill'/>
+   <Image src="https://logomakercdn.truic.com/ux-flow/industry/bank-meta.png" objectFit='contain' layout='fill'/>
    </div>
 </Link>
 
@@ -92,7 +92,7 @@ const {data:session}= useSession();
 :
 
 
-(<div onClick={()=>signIn()} className=" hidden cursor-pointer item-center space-x-2 border border-gray-100 p-2 lg:flex">
+(<div onClick={()=>signIn("google")} className=" hidden cursor-pointer item-center space-x-2 border border-gray-100 p-2 lg:flex">
 
 
 

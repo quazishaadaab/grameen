@@ -4,6 +4,6 @@ module.exports = {
 // need to specify domains when importing images 
   images: {
 
-    domains:['links.papareact.com','avatars.dicebear.com'],
+    domains:['links.papareact.com','avatars.dicebear.com','logomakercdn.truic.com'],
   }
 }

@@ -15,8 +15,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: any) {
       <SessionProvider session={session}>
         <Toaster />
         {/* makes whole app scrollable and grey */}
-        <div className="h-screen overflow-y-scroll bg-slate-200">
-          {/* <Header /> */}
+        <div className="h-screen w-screen overflow-y-scroll bg-red-200">
 
           <Component {...pageProps} />
         </div>

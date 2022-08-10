@@ -132,7 +132,7 @@ return displayNumber;
 </div>
 {/* Body */}
 
-<div className="pl-2">
+<div className="pl-2 ">
 <h2 className="text-xl font-semibold">{post.title}</h2>
 <p className="mt-2 text-sm font-light ">{post.body}</p>
 </div>

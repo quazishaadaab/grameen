@@ -23,7 +23,7 @@ const {data:session}= useSession();
 
 
    <div className="relative h-10 w-20 flex-shrink-0 cursor-pointer">
-   <Image src="https://logomakercdn.truic.com/ux-flow/industry/bank-meta.png" objectFit='contain' layout='fill'/>
+   <img src="https://logomakercdn.truic.com/ux-flow/industry/bank-meta.png"></img>
    </div>
 </Link>
 

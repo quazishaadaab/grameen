@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../../components/Sidebar";
+import Plaid from "./plaid";
 function Dashboard() {
   return (
     <div className="flex h-[100%]">
@@ -38,6 +39,7 @@ function Dashboard() {
               <div className="h-[40%] w-[100%] 2xl:text-6xl md:text-5xl text-white  ">
                 $328
               </div>
+              <Plaid></Plaid>
               <div className="h-[20%] w-[100%] md:text-xs 2xl:text-base text-[#8D8D8D] pt-4 ">
                 Spent this month
               </div>
